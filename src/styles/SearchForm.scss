@@ -1,0 +1,45 @@
+.searchHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  &__container {
+    min-width: 303px;
+    display: flex;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background: black;
+  }
+
+  &__btn {
+    background-color: black;
+    border: none;
+    color: whitesmoke;
+    font-size: 1rem;
+  }
+  &__input {
+    border: none;
+    // margin-left: 5px;
+    max-width: 350px;
+    min-width: 250px;
+    background: black;
+    color: white;
+    font-size: 1rem;
+    vertical-align: middle;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      color: gray;
+      font-size: 1rem;
+    }
+  }
+
+  &__xmark {
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 1rem;
+  }
+}
