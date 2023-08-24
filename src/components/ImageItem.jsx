@@ -6,7 +6,7 @@ function ImageItem({index , image }) {
 
    // eslint-disable-next-line react/prop-types
    const imageLink = image.urls.regular;
-   const imageLinkToRedirect = image.urls.full;
+   const imageLinkToRedirect = image.links.html;
 
    const handleRedirect = () => {
     window.open(imageLinkToRedirect, '_blank')
